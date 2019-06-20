@@ -10,7 +10,9 @@ namespace WebAPI.Models
     {
         public PaymentDetailContext(DbContextOptions<PaymentDetailContext> options): base(options)
         {
-                
+             
         }
+
+        public DbSet<PaymentDetail> PaymentDetails { get; set; }
     }
 }
