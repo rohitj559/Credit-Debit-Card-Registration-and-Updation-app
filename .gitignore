@@ -2,4 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Angular-CoreWebAPI/.vs/Angular-CoreWebAPI/v15
+/Angular-CoreWebAPI/.vs/*
+/Angular-CoreWebAPI/bin
+/Angular-CoreWebAPI/obj
+/Angular-CoreWebAPI/WebAPI/bin/Debug/netcoreapp2.2
+/Angular-CoreWebAPI/WebAPI/obj
