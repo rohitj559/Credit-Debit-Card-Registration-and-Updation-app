@@ -28,4 +28,8 @@ export class PaymentDetailComponent implements OnInit {
       CVV: ''
     };
   }
+
+  onSubmit(form: NgForm) {
+    
+  }
 }
