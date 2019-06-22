@@ -8,10 +8,10 @@ Tech Stack: Angular and ASP.Net Core WebAPI
 Usage:
 
 1. Download Source code
-2. Run 'npm install' under the Angular project directory - 
-3. Install appropriate nuget packages under ASP.NET Core project directory -
+2. Run `npm install` under the Angular project directory - `/Angular-CoreWebAPI/AngularFrontEnd/`
+3. Install appropriate nuget packages under ASP.NET Core project directory - `/Angular-CoreWebAPI/WebAPI/`
 4. Ensure that you have SQL Express installed and know the local db instance to use it in your machine
 4. Run the Web API project within visual studio/visual studio code
-5. Run the Angular app using the command - 'ng serve -o'
+5. Run the Angular app using the command - `ng serve -o`
 
 Enjoy!
