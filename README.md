@@ -12,6 +12,6 @@ Usage:
 3. Install appropriate nuget packages under ASP.NET Core project directory - `/Angular-CoreWebAPI/WebAPI/`
 4. Ensure that you have SQL Express installed and know the local db instance to use it in your machine
 4. Run the Web API project within visual studio/visual studio code
-5. Run the Angular app using the command - `ng serve -o`
+5. Run the Angular app using the command: `ng serve -o`
 
 Enjoy!
