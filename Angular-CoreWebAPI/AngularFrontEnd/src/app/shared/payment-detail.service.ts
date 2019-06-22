@@ -28,4 +28,8 @@ export class PaymentDetailService {
   putPaymentDetail() {
     return this.http.put(this.rootURL + '/PaymentDetails/' + this.formData.PMId, this.formData);
   }
+
+  deletePaymentDetail(id) {
+    return this.http.delete(this.rootURL + '/PaymentDetails/' + id);
+  }
 }
