@@ -24,4 +24,8 @@ export class PaymentDetailService {
     .then(res => this.list = res as PaymentDetail[]);
     console.log(this.list);
   }
+
+  putPaymentDetail() {
+    return this.http.put(this.rootURL + '/PaymentDetails/' + this.formData.PMId, this.formData);
+  }
 }
